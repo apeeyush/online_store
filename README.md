@@ -1,4 +1,7 @@
-= The Online Store
+README
+=======
+
+This repository contains a sample rails app I built while learning Ruby on Rails.
 
 This application implements an online store, with a catalog, cart, and orders.
 
@@ -15,8 +18,6 @@ It is divided into two main sections:
   SessionsController, is enforced by the ApplicationController#authorize
   method, and assisted by the Users and Carts resources.
 
-This code was while learning Rails from book Agile Web Development with Rails. It should not be run as a real online store.
-
 === Author
 
  * Peeyush Agarwal
@@ -25,3 +26,21 @@ This code was while learning Rails from book Agile Web Development with Rails. I
 
 This code is provided for educational purposes only, and comes with 
 absolutely no warranty. It should not be used in live applications.
+
+
+Licence
+=======
+
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                       Version 2, December 2004
+    
+    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+    
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
+    
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+    
+     0. You just DO WHAT THE FUCK YOU WANT TO.
