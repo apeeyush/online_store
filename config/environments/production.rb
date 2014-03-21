@@ -76,8 +76,8 @@ Depot::Application.configure do
   # config.autoflush_log = false
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
-  config.log_formatter = ::Logger::Formatter.new
+  #config.log_formatter = ::Logger::Formatter.new
 
-  require 'active_support/core_ext/numeric/bytes'
-  config.logger = Logger.new(paths['log'].first, 2, 10.megabytes)
+  #require 'active_support/core_ext/numeric/bytes'
+  #config.logger = Logger.new(paths['log'].first, 2, 10.megabytes)
 end
